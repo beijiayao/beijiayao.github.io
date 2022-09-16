@@ -1,0 +1,56 @@
+
+/*format and position the main navigation menu*/
+nav {
+    width:50%;
+    height:10px;
+    
+}
+nav ul {
+    float:left;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 50px  100px 25px;
+    justify-content: center;
+}
+nav ul li {
+    position: relative; /*we must add a position to our main navigation bar so we can position a drop-down properly */
+    text-align: center;
+    font-weight: bold;
+    color: #f0b1d6;
+    float:left;
+}
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    border: 3px dotted magenta;
+    padding:10px 50px ;
+    width: 50px; /*this is important to set so our drop-down doesn't go across the page*/
+    margin: 0px;
+}
+
+/*format all navigation <a> elements*/
+nav a:link{
+    background-color: white;
+}
+nav a:hover, nav a:focus {
+    background-color: cornsilk;
+}
+nav a:active{
+    background-color: aquamarine;
+}
+
+/*position sub-menu or drop-down*/
+nav ul li ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    
+}
+nav ul ul li {
+    float:none;
+}
+
+/*special hover to display the drop-down*/
+nav>ul>li:hover>ul{
+    display: block;
+}
