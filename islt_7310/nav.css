@@ -1,0 +1,11 @@
+.nav{
+    margin: 0px;
+    padding: 50px 50px 50px 50px;
+    text-align: center;
+
+}
+.nav > li {
+    display: inline-block;
+    border: 3px dotted magenta;
+    background-color: #f0b1d6;
+}
