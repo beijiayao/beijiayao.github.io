@@ -1,2 +1,11 @@
 #LEVEL1Heading{color :#6CA368;}
 .LEVEL1Heading{color :#A35885;}
+p::first-letter {
+    color: red;
+    font-size: 150%;
+  }
+
+  p::first-line {
+    color: rgb(247, 0, 255);
+    font-size: 100%;
+  }
