@@ -6,6 +6,15 @@
         <title> About Me</title>
             <link rel="stylesheet"  type="text/css" href="style.css">
             <link rel="stylesheet"  type="text/css" href="navH.css">
+        <style type="text/css">
+         .grids {
+			   display: grid;
+			   grid-template-columns: 2fr 5fr 2fr ;
+			   grid-template-rows: 2fr 2fr 2fr 10fr 2fr;
+			   grid-gap: 10px;
+			   height: 720px;
+		}
+        </style>
         <style>
           /*entire page style*/
           * {margin: 0; padding: 0;}
@@ -13,28 +22,37 @@
           
            /*semantic element styles*/
            header {
+            grid-column-start: 1;
+			      grid-column-end: 4;
             border-bottom: 1px dashed black;
             background-color: #f0b1d6;}
 
-            nav {border: 1px solid black;}
+            nav {border: 1px solid black;
+              grid-column-start: 2;
+              grid-column-end: 3;}
 
             main {
+              grid-column-start: 2;
+              grid-column-end: 3;
                   float: inline-end;
                   height: 350px; width: 90%;
-			            margin-bottom: 1px;
-			            margin-right: 1px;
+			            margin-bottom: 0.5px;
+			            margin-right: 0.5px;
                 }
 
             img {
-              max-width: 100%;
+              max-width: 5%;
             }
             
             figure {
-              background: black;
-              border-radius: 5px;
+              grid-column-start: 2;
+              grid-column-end: 4;
+  
+              background: rgb(238, 237, 237);
+              border-radius: 0.5px;
               color: white;
-              margin: 0 0 25px 0;
-              padding: 10px;
+              margin: 0 0 0.5px 0;
+              padding: 0.5px;
               text-align: center;
             }
             
@@ -44,7 +62,13 @@
 
             
             
-            footer {border-top: 1px solid black; clear: both;}
+            footer {border-top: 1px solid black; clear: both;
+              margin-top: 0.5px;
+              grid-column-start: 1;
+              grid-column-end: 4;
+              grid-row-start: 6;
+              grid-row-end: 7;}
+            
 
              /*content styling*/
              h1 {padding: 0px; font-size: 20pt;}
@@ -71,7 +95,8 @@
 <body>
     <!--This is the ABOUT page-->
       
-      <main>
+      
+        <div class="grids">
         <header>
             <h1 id="LEVEL1Heading">Hey, Welcome to THE FLAVOR TAKE YOU HOME!</h1>
             <h2 class="LEVEL1Heading">Enjoy!</h2>
@@ -101,11 +126,11 @@
           <br/>
           
 
-    
+      <main>
       <p><a href="CV-Beijia_yao.pdf">BeiJia_CV</a></p>
       <br/>
       <figure>
-        <img src="#" alt="#">
+        <img src="Beijia.jpg" alt="#">
         <figcaption>figure</figcaption>
       </figure>
       <p > 
@@ -125,14 +150,16 @@
         he doesn't give me too much attention. 
         Yes, this is me. I am glad you are visiting my web page.
     </p>
-    <blockquote>"<strong>Hakuna</strong> Matata"</blockquote>
 
+    <blockquote>"<strong>Hakuna</strong> Matata"</blockquote>
+  </main>
   
       <footer>
           <p>Author: BeiJia Yao</p>
           <p><a href="yaobeijia12@gmail.com">yaobeijia12@gmail.com</a></p>
      </footer>
-      </main>
+       </div>
+      
       
 </body>
 </html>
