@@ -8,8 +8,8 @@
         <style type="text/css">
          .grids {
 			   display: grid;
-			   grid-template-columns: 2fr 5fr 2fr;
-			   grid-template-rows: 5fr 5fr 5fr 5fr 20fr 2fr;
+			   grid-template-columns: 2fr 5fr 2fr ;
+			   grid-template-rows: 2fr 2fr 2fr 10fr 2fr;
 			   grid-gap: 10px;
 			   height: 720px;
 		}
@@ -27,14 +27,16 @@
             background-color: #f0b1d6;}
 
             nav {border: 1px solid black;
-              grid-column-start: 1;
-              grid-column-end: 4;}
+              grid-column-start: 2;
+              grid-column-end: 3;}
 
             main {
+              grid-column-start: 2;
+              grid-column-end: 3;
                   float: inline-end;
                   height: 350px; width: 90%;
-			            margin-bottom: 1px;
-			            margin-right: 1px;
+			            margin-bottom: 0.5px;
+			            margin-right: 0.5px;
                 }
 
             img {
@@ -42,12 +44,14 @@
             }
             
             figure {
+              grid-column-start: 2;
+              grid-column-end: 4;
   
               background: rgb(238, 237, 237);
-              border-radius: 5px;
+              border-radius: 3px;
               color: white;
-              margin: 0 0 25px 0;
-              padding: 10px;
+              margin: 0 0 2px 0;
+              padding: 5px;
               text-align: center;
             }
             
