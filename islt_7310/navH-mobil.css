@@ -1,3 +1,8 @@
+@font-face{
+    font-family: Satisfy;
+    src: url("Satisfy-Regular.ttf");
+  }
+  
 body{
     margin:0;
     padding:0 ;
@@ -5,6 +10,7 @@ body{
     font-family: sans-serif;
     font-size: 16px;
 }
+blockquote{font-family: Satisfy,serif;}
 
 nav{
     width: 100%;
