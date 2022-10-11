@@ -1,3 +1,9 @@
+@font-face{
+  font-family: Satisfy;
+  src: url("Satisfy-Regular.ttf");
+}
+
+
 #LEVEL1Heading{color :#6CA368;}
 .LEVEL1Heading{color :#A35885;}
 p::first-letter {
@@ -80,6 +86,8 @@ p::first-letter {
        padding: 0.5px;
        text-align: center;
      }
+
+     blockquote{font-family: Satisfy,serif;}
      
     
      figcaption {
