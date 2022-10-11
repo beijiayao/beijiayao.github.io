@@ -1,3 +1,11 @@
+
+@font-face { 
+
+    font-family: Satis; /*this is where we give our font a name so we can use it!*/
+    
+    src: url("Satisfy-Regular.ttf"); /*remember this is how we link to files in CSS!*/
+
+    }
 body{
     margin:0;
     padding:0 ;
@@ -76,6 +84,8 @@ nav ul li ul  li a:hover
     padding:5px 5px;
     background-color: #f3f3f3
 }
+
+blockquote {font-family: Satis, serif; } /*now we can use the name we provided in the @font-face style to use the font file we uploaded to the server space*/
 @media(max-width:768px)
 {
     nav ul
