@@ -1,11 +1,9 @@
+@font-face{
+    font-family: Satisfy;
+    src: url("Satisfy-Regular.ttf");
+}
 
-@font-face { 
 
-    font-family: Satisfy; /*this is where we give our font a name so we can use it!*/
-    
-    src: url("Satisfy-Regular.ttf"); /*remember this is how we link to files in CSS!*/
-
-    }
 body{
     margin:0;
     padding:0 ;
@@ -13,6 +11,8 @@ body{
     font-family: sans-serif;
     font-size: 16px;
 }
+
+blockquote{font-family: Satisfy,serif;}
 
 nav{
     width: 100%;
@@ -85,7 +85,6 @@ nav ul li ul  li a:hover
     background-color: #f3f3f3
 }
 
-blockquote {font-family: Satisfy, serif; } 
 
 /*now we can use the name we provided in the @font-face style to use the font file we uploaded to the server space*/
 @media(max-width:768px)
