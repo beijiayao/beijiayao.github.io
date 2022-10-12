@@ -97,3 +97,36 @@ nav ul li ul  li a:hover
     }
 
 }
+@media print {
+    * {
+        margin: 1 !important; 
+        color: #000 !important;
+    }
+
+
+    /* hide element*/
+    nav{display: none;}
+    
+    /* global typgraphy reset*/
+    body{
+        font-family: Georgia,serif;
+        font-size: 16pt;
+        line-height: 24pt;
+        background: none;
+        color: black;
+        padding: 0;
+    }
+
+    /*layout reset*/
+    footer{
+        width: 20%;
+        border: none;
+        padding: 0;
+        margin: 1;
+        color: black;
+    }
+  
+
+      
+    
+}
