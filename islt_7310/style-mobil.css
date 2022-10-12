@@ -90,8 +90,8 @@ nav {
   }
   footer {
     color: #c7948f;
-    background-image: url(../image/Clay.JPG);
-    background-size:contain;
+    background-image: url(../image/mizzou.jpg);
+    background-size:cover;
      border-top: 5px solid black; clear: both;
      margin-top: 0.5px;
      grid-column-start: 1;
