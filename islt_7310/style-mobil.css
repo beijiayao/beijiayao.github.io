@@ -98,7 +98,7 @@ p::first-letter {
      
      footer {
       background-image: url(../image/Clay.JPG);
-      background-size: cover;
+      background-size:contain;
       
       
        border-top: 1px solid black; clear: both;
