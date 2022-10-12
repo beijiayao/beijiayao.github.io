@@ -106,6 +106,7 @@ nav ul li ul  li a:hover
 
     /* hide element*/
     nav{display: none;}
+    figure{display: none;}
 
     @page {
         margin: 1cm !important;
