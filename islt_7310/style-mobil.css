@@ -96,6 +96,7 @@ nav {
      margin-top: 0.5px;
      grid-column-start: 1;
      grid-column-end: 4;
+     
      text-align: right;
     }
     .pic{
@@ -105,8 +106,8 @@ nav {
     .picbig{
       position: absolute;
       width:0px;
-      -webkit-transition: width 0.3s linear 0s;
-      transition: width 0.3s linear 0s;
+      /*-webkit-transition: width 0.3s linear 0s;
+      transition: width 0.3s linear 0s;*/
       z-index: 20;
     }
 
