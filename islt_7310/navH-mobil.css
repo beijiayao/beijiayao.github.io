@@ -107,7 +107,7 @@ nav ul li ul  li a:hover
     nav{display: none;}
 
     @page {
-        margin: 1 !important;
+        margin: 1cm !important;
       
     }
     
@@ -135,7 +135,7 @@ nav ul li ul  li a:hover
         width: 20%;
         border: none;
         padding: 0;
-        margin: 1;
+        margin: 1cm;
         color: black;
     }
       
