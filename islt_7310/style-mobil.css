@@ -4,112 +4,104 @@
 }
 
 
-#LEVEL1Heading{color :#6CA368;}
+#LEVEL1Heading{color :#89CFF0;}
 .LEVEL1Heading{color :#A35885;}
-p::first-letter {
-    color: red;
-    font-size: 150%;
-  }
-
-  p::first-line {
-    color: rgb(247, 0, 255);
-    font-size: 100%;
-  }
-  .wrapper {
-    display: grid;
-    grid-template-rows: 10fr 5fr 20fr 20fr;
-    grid-gap: 10px;
-    height: 720px;
-  }
-  
-
 
   .grids {
   display: grid;
-  grid-template-columns: 2fr 5fr 2fr ;
-  grid-template-rows: 2fr 2fr 2fr 10fr 2fr;
+  grid-template-columns: 2fr 2fr  2fr ;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr 2fr;
   grid-gap: 10px;
   height: 720px;
 }
  
    /*entire page style*/
     *{
-        box-sizing: border-box;
         padding:0;
         margin:0;
     }
-   
+
     body{
-        font-family: sans-serif;
-        font-size: 16px;
-    }
-   
-    /*semantic element styles*/
-    header {
+      font-family: sans-serif;
+      font-size: 16px;
+      background-color:  #f5f5dc;
+  }
+  
+  /*semantic element styles*/
+header {
+  font-family: Satisfy,serif;
+ grid-column-start: 1;
+ grid-column-end: 4;
+ grid-row-start: 1;
+ grid-row-end: 2;
+ background-color: none;}
+
+nav {
+    padding: 0 15px;
+   grid-column-start: 1;
+   grid-column-end: 4;
+   grid-row-start: 2;
+   grid-row-end: 3;
+  }
+
+  article{
+    color: #57a0d3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin-bottom: 0.5px;
+    margin-left: 5px;
+    background-color:none;
+   }
+
+  
+  figure {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    height: 200px;px; width: 100%;
+    background: none;
+    border-radius: 0.5px;
+    color: white;
+    margin: 0 0 0.5px 0;
+    padding: 0.5px;
+    text-align: center;
+  }
+
+  img {
+    max-width: 5%;
+  }
+
+  main{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    height: 500px; width: 100%;
+  
+    border-radius: 0.5px;
+    color: #c7948f;
+    margin: 0 0 0.5px 0;
+    padding: 0.5px;
+    text-align:justify;
+
+  }
+  footer {
+    color: #c7948f;
+    background-image: url(../image/Clay.JPG);
+    background-size:contain;
+     border-top: 5px solid black; clear: both;
+     margin-top: 0.5px;
      grid-column-start: 1;
      grid-column-end: 4;
-     border-bottom: 1px dashed black;
-     background-color: #f0b1d6;}
-
-     nav {
-        padding: 0 15px;
-        border: 1px solid black;
-       grid-column-start: 2;
-       grid-column-end: 3;}
-
-       a{
-        
-        padding: 0;
-       }
-
-     main {
-       grid-column-start: 2;
-       grid-column-end: 3;
-           float: inline-end;
-           height: 350px; width: 90%;
-           margin-bottom: 0.5px;
-           margin-right: 0.5px;
-         }
-
-     img {
-       max-width: 5%;
-     }
-     
-     figure {
-       grid-column-start: 2;
-       grid-column-end: 4;
-
-       background: rgb(238, 237, 237);
-       border-radius: 0.5px;
-       color: white;
-       margin: 0 0 0.5px 0;
-       padding: 0.5px;
-       text-align: center;
-     }
-
-     blockquote{font-family: Satisfy,serif;}
-     
-    
-     figcaption {
-       font-size: .8em;
-     }
-
-     
-     
-     footer {
-      background-image: url(../image/Clay.JPG);
-      background-size:contain;
-      
-      
-       border-top: 1px solid black; clear: both;
-       margin-top: 0.5px;
-       grid-column-start: 1;
-       grid-column-end: 4;
-       grid-row-start: 6;
-       grid-row-end: 7;}
+     text-align: right;
+    }
      
 
-      /*content styling*/
-      h1 {padding: 0px; font-size: 20pt;}
+  
+   
+   
 
      
