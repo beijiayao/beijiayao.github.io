@@ -51,7 +51,7 @@ nav ul li ul
 {
         display: none;
         position: absolute;
-        background-color: #fcbacb;
+        background-color: #efe1de;
         padding:0px 10px;
         top: 47px;
         transition: 0.5s;
@@ -60,7 +60,7 @@ nav ul li ul
 }
 nav ul li:hover
 {
-    background: #f3f3f3;
+    background: #efe1de;
 }
 
 nav ul li:hover ul {
