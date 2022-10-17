@@ -104,6 +104,9 @@ nav ul li ul  li a:hover
     iframe{
         width: 50%;
     }
+    form{
+        width: 30%;
+    }
 
 }
 @media print {

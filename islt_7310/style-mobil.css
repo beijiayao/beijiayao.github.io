@@ -172,5 +172,11 @@ nav {
     table tr:nth-child(odd) td{
       background-color:#e7edf0;
     }
+
+    label{
+      width: 100px;
+      display:inline-table;
+      margin: 4px;
+    }
    
      
