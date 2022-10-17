@@ -107,6 +107,9 @@ nav ul li ul  li a:hover
     form{
         width: 30%;
     }
+    article{
+        overflow: hidden;
+    }
 
 }
 @media print {
