@@ -52,15 +52,15 @@ nav ul li ul
         display: none;
         position: absolute;
         background-color: #efe1de;
-        padding:0px 10px;
-        top: 47px;
+        padding:0px 0px;
+        top: 65px;
         transition: 0.5s;
         opacity: 0;
         visibility: hidden;
 }
 nav ul li:hover
 {
-    background: #efe1de;
+    background: #f3f3f3;
 }
 
 nav ul li:hover ul {
@@ -76,14 +76,14 @@ nav ul li ul  li
 }
 nav ul li ul  li a 
 {
-    padding: 5px 5px;
+    padding: 0px 0px;
 }
 nav ul li ul  li a:hover 
 {
-    padding:5px 5px;
-    background-color: #f3f3f3
+    padding: 0px 0px;
+    background-color: #f3f3f3;
 }
-@media(max-width:768px)
+@media(max-width:1250px)
 {
     nav ul
     {
@@ -95,6 +95,14 @@ nav ul li ul  li a:hover
     nav ul li ul{
         width:100%;
         z-index: 1;
+    }
+    tr{font-size: 16px;
+    }
+    table{
+        width: 50%;
+    }
+    iframe{
+        width: 50%;
     }
 
 }
